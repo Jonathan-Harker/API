@@ -229,4 +229,4 @@ def EbayAPI():
     s3 = boto3.client('s3', aws_access_key_id='myAWSid' , aws_secret_access_key='myS3Secret')
     s3.upload_file(file, 'my-bucket-name', 'my_folder/' + file)
     
-    EbayAPI()
+EbayAPI()
